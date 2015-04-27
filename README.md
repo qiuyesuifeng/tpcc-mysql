@@ -26,4 +26,6 @@ a tpcc-mysql repo from percona tool
    * ref. tpcc_start --help for all options 
 
 Also you can use tpcc_mysql_test.sh for tpcc-mysql test.
+
+
 Usage: sh tpcc_mysql_test.sh {ServiceType all|load|run} {ServiceScale tiny|small|normal|large}
