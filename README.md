@@ -24,3 +24,6 @@ a tpcc-mysql repo from percona tool
    * ./tpcc_start -h127.0.0.1 -P33000 -dtpcc1000 -uroot -w1000 -c32 -r10 -l10800
                   |hostname| |port| |dbname| |user| |WAREHOUSES| |CONNECTIONS| |WARMUP TIME| |BENCHMARK TIME|
    * ref. tpcc_start --help for all options 
+
+Also you can use tpcc_mysql_test.sh for tpcc-mysql test.
+Usage: sh tpcc_mysql_test.sh {ServiceType all|load|run} {ServiceScale tiny|small|normal|large}
